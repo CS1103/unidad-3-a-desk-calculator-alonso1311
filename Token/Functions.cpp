@@ -2,6 +2,7 @@
 #include"Definiciones.h"
 
 Token_stream ts {cin};
+map<string, double> table;
 
 double term(bool get) {
     double left = prim(get);
